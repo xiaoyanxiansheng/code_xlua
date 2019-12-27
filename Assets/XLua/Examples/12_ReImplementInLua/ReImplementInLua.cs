@@ -4,7 +4,7 @@ using XLua;
 
 namespace XLuaTest
 {
-
+    // TODO GCOptimize这个是什么意思？
     [GCOptimize(OptimizeFlag.PackAsTable)]
     public struct PushAsTableStruct
     {
