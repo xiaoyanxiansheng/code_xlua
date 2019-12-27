@@ -1,0 +1,7 @@
+function start()
+    -- 一维数组
+	local one = {1,{2,3,"12a李彦a12",{"a",1}},5};
+	lua_safe_bind("one",one);
+
+	self:PrintTable();
+end
